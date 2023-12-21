@@ -1,0 +1,23 @@
+@import "bootstrap.min.css";
+
+:root {
+    --global-font-size: 1.3rem;
+}
+
+body {
+    --bs-body-font-size: var(--global-font-size);
+}
+
+.navbar {
+    --bs-navbar-brand-font-size: var(--global-font-size);
+}
+
+.btn {
+    --bs-btn-font-size: 1.15rem;
+}
+
+.btn-link {
+    --bs-btn-font-size: var(--global-font-size);
+    padding: unset;
+    margin: unset;
+}
