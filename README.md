@@ -1,6 +1,8 @@
 # LaravelCommerce
 A website with a shopping cart, orders and the YooKassa payment system. Uses Laravel, Bootstrap 5 and the [laravel-commerce](https://github.com/Yiddishe-Kop/laravel-commerce) package.
 
+https://github.com/brutalhost/simple-commerce.loc/assets/18640248/ddab522d-3e08-41bd-a579-d48b39a4a321
+
 ### What has been implemented
 An anonymous user can add items to the cart. This data is stored in the session and database.
 
@@ -21,4 +23,4 @@ If the payment is successful, the user can use the proposed redirect to the list
 
 If the site is running on a local machine, start a proxy tunnel. Example command for ngrok: ```ngrok http --host-header=simple-commerce.loc 80```. Instead of host, specify the url where the site is accessible on the local machine.
 
-Specify the url ```https://****-**-**-**-**.ngrok-free.app/commerce/webhook``` in [YooKassa personal account](https://yookassa .ru/my/merchant/integration/http-notifications) to receive webhook notifications so that the gateway can change the order status to “completed”.
+Specify the url ```https://****-**-**-**-**.ngrok-free.app/commerce/webhook``` in [YooKassa personal account](https://yookassa.ru/my/merchant/integration/http-notifications) to receive webhook notifications so that the gateway can change the order status to “completed”.
