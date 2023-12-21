@@ -1,7 +1,7 @@
 # LaravelCommerce
 A website with a shopping cart, orders and the YooKassa payment system. Uses Laravel, Bootstrap 5 and the [laravel-commerce](https://github.com/Yiddishe-Kop/laravel-commerce) package.
 
-https://github.com/brutalhost/simple-commerce.loc/assets/18640248/ddab522d-3e08-41bd-a579-d48b39a4a321
+https://github.com/brutalhost/simple-commerce.loc/assets/18640248/bd59306a-a41d-44b2-a0bd-4b306536c7bd
 
 ### What has been implemented
 An anonymous user can add items to the cart. This data is stored in the session and database.
